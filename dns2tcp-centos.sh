@@ -38,7 +38,7 @@ do
 done
 
 
-cat > "/etc/dns2tcpd.conf"<<-EOF
+cat > ~/dns2tcpd.conf<<-EOF
 	listen = ${ip}
 	port = 53
 	user = nobody
