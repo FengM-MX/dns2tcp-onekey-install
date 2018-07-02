@@ -60,7 +60,7 @@ else
 fi
 
 
-tar zxf v0.5.2.tar.gz
+tar zxf v0.5.2
 [[ ! -e "/root/v0.5.2/" ]] && echo -e "${Error} 解压失败 !" && rm -rf v0.5.2.tar.gz && exit 1
 cd dns2tcp-0.5.2
 ./configure  
